@@ -1,0 +1,26 @@
+{
+  "name": "reto_periferiait",
+  "version": "1.0.0",
+  "description": "Agente de registro de contratos vigentes — reto técnico Periferia IT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "demo": "tsx src/demo.ts",
+    "demo:confirmar": "tsx src/demo.ts --confirmar-msg-006",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "csv-stringify": "^6.9.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

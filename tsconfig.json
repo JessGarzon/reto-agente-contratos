@@ -1,0 +1,26 @@
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "probar-buzon.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "fixtures",
+    "out"
+  ]
+}
